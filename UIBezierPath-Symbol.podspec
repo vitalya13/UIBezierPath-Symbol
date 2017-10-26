@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = "Kaijie Yu"
   s.source       = { :git => "https://github.com/vitalya13/UIBezierPath-Symbol.git" }
   s.ios.deployment_target = "7.0"
-  s.source_files = "*.{h,m}"
+  s.source_files = "UIBezierPath-Symbol/*.{h,m}"
   s.requires_arc = true
 end
