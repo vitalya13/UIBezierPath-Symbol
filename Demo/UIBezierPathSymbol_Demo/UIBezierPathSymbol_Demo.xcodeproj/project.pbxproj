@@ -95,7 +95,7 @@
 		7FAF89A0169AC8BD00563679 /* KYPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlusButton.m; sourceTree = "<group>"; };
 		8A66AD741FA1C5E900B3891E /* KYInfinityButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYInfinityButton.h; sourceTree = "<group>"; };
 		8A66AD751FA1C5E900B3891E /* KYInfinityButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYInfinityButton.m; sourceTree = "<group>"; };
-		8A66AD781FA1E51100B3891E /* UIBezierPathSymbol.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = UIBezierPathSymbol.podspec; path = ../../UIBezierPathSymbol.podspec; sourceTree = "<group>"; };
+		8A66AD781FA1E51100B3891E /* UIBezierPath-Symbol.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "UIBezierPath-Symbol.podspec"; path = "../../UIBezierPath-Symbol.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 				7FAF893B169AC51B00563679 /* UIBezierPathSymbol_Demo */,
 				7FAF8934169AC51B00563679 /* Frameworks */,
 				7FAF8933169AC51B00563679 /* Products */,
-				8A66AD781FA1E51100B3891E /* UIBezierPathSymbol.podspec */,
+				8A66AD781FA1E51100B3891E /* UIBezierPath-Symbol.podspec */,
 			);
 			sourceTree = "<group>";
 		};
