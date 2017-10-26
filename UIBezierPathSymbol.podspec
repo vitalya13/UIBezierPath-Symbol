@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "UIBezierPath-Symbol"
+  s.name         = "UIBezierPathSymbol"
   s.version      = "1.1"
   s.summary      = "Bezier symbols library"
   s.homepage     = "https://github.com/vitalya13/UIBezierPath-Symbol"
