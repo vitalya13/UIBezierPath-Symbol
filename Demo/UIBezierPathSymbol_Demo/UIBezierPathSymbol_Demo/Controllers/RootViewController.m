@@ -14,7 +14,7 @@
 #import "KYCancelButton.h"
 #import "KYArrowButton.h"
 #import "KYEditButton.h"
-
+#import "KYInfinityButton.h"
 
 @interface RootViewController ()
 
@@ -112,6 +112,14 @@
   editButton.color = basicColor;
   [self.view addSubview:editButton];
   [editButton release];
+    
+  // Infinity
+  buttonFrame.origin.x = kKYViewWidth - CGRectGetMaxX(buttonFrame);
+  KYInfinityButton * infinityButton = [[KYInfinityButton alloc] initWithFrame:buttonFrame];
+  infinityButton.scale = basicScale;
+  infinityButton.color = basicColor;
+  [self.view addSubview:infinityButton];
+  [KYInfinityButton release];
 }
 
 - (void)didReceiveMemoryWarning

@@ -275,4 +275,17 @@
   return path;
 }
 
+// infinity
++ (UIBezierPath *)customBezierPathOfInfinitySymbolWithRect:(CGRect)rect scale:(CGFloat)scale {
+    CGRect scaledRect = CGRectMake((CGRectGetWidth(rect) - CGRectGetWidth(rect) * scale) / 2.f, (CGRectGetHeight(rect) - CGRectGetHeight(rect) * scale) / 2.f, CGRectGetWidth(rect) * scale, CGRectGetHeight(rect) * scale);    
+    CGPoint center = CGPointMake(CGRectGetMidX(scaledRect), CGRectGetMidY(scaledRect));
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:center];
+    [path addCurveToPoint:center controlPoint1:CGPointMake(scaledRect.origin.x, scaledRect.origin.y) controlPoint2:CGPointMake(scaledRect.origin.x, scaledRect.origin.y + scaledRect.size.height)];
+    [path addCurveToPoint:center controlPoint1:CGPointMake(scaledRect.origin.x + scaledRect.size.width, scaledRect.origin.y) controlPoint2:CGPointMake(scaledRect.origin.x + scaledRect.size.width, scaledRect.origin.y + scaledRect.size.height)];
+    [path closePath];
+     
+    return path;
+}
+
 @end
