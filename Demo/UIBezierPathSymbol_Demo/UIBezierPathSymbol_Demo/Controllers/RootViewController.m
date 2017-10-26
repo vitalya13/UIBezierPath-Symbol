@@ -14,7 +14,7 @@
 #import "KYCancelButton.h"
 #import "KYArrowButton.h"
 #import "KYEditButton.h"
-
+#import "KYInfinityButton.h"
 
 @interface RootViewController ()
 
@@ -89,7 +89,7 @@
   leftArrowButton.scale     = basicScale;
   leftArrowButton.thick     = basicThick * 2.f;
   leftArrowButton.color     = basicColor;
-  leftArrowButton.direction = kKYDirectionLeft;
+  leftArrowButton.direction = kUIBezierPathArrowDirectionLeft;
   [self.view addSubview:leftArrowButton];
   [leftArrowButton release];
   
@@ -99,7 +99,7 @@
   upArrowButton.scale     = basicScale;
   upArrowButton.thick     = basicThick * 2.f;
   upArrowButton.color     = basicColor;
-  upArrowButton.direction = kKYDirectionUp;
+  upArrowButton.direction = kUIBezierPathArrowDirectionUp;
   [self.view addSubview:upArrowButton];
   [upArrowButton release];
   
@@ -112,6 +112,14 @@
   editButton.color = basicColor;
   [self.view addSubview:editButton];
   [editButton release];
+    
+  // Infinity
+  buttonFrame.origin.x = kKYViewWidth - CGRectGetMaxX(buttonFrame);
+  KYInfinityButton * infinityButton = [[KYInfinityButton alloc] initWithFrame:buttonFrame];
+  infinityButton.scale = basicScale;
+  infinityButton.color = basicColor;
+  [self.view addSubview:infinityButton];
+  [KYInfinityButton release];
 }
 
 - (void)didReceiveMemoryWarning

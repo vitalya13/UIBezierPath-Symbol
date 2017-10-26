@@ -41,6 +41,7 @@
 		7FAF89AF169AC8BD00563679 /* KYDeleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8994169AC8BD00563679 /* KYDeleteButton.m */; };
 		7FAF89B1169AC8BD00563679 /* KYEditButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF8998169AC8BD00563679 /* KYEditButton.m */; };
 		7FAF89B5169AC8BD00563679 /* KYPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAF89A0169AC8BD00563679 /* KYPlusButton.m */; };
+		8A66AD761FA1C5E900B3891E /* KYInfinityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A66AD751FA1C5E900B3891E /* KYInfinityButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		7FAF8998169AC8BD00563679 /* KYEditButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYEditButton.m; sourceTree = "<group>"; };
 		7FAF899F169AC8BD00563679 /* KYPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlusButton.h; sourceTree = "<group>"; };
 		7FAF89A0169AC8BD00563679 /* KYPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlusButton.m; sourceTree = "<group>"; };
+		8A66AD741FA1C5E900B3891E /* KYInfinityButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYInfinityButton.h; sourceTree = "<group>"; };
+		8A66AD751FA1C5E900B3891E /* KYInfinityButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYInfinityButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +226,8 @@
 				7FAF8994169AC8BD00563679 /* KYDeleteButton.m */,
 				7FAF8997169AC8BD00563679 /* KYEditButton.h */,
 				7FAF8998169AC8BD00563679 /* KYEditButton.m */,
+				8A66AD741FA1C5E900B3891E /* KYInfinityButton.h */,
+				8A66AD751FA1C5E900B3891E /* KYInfinityButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 			files = (
 				7FAF8942169AC51B00563679 /* main.m in Sources */,
 				7FAF8946169AC51B00563679 /* AppDelegate.m in Sources */,
+				8A66AD761FA1C5E900B3891E /* KYInfinityButton.m in Sources */,
 				7FAF897E169AC6B200563679 /* RootViewController.m in Sources */,
 				7FAF8981169AC6CE00563679 /* Constants.m in Sources */,
 				7FAF8989169AC79F00563679 /* UIBezierPath+Symbol.m in Sources */,
@@ -435,6 +441,7 @@
 				7FAF8951169AC51B00563679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

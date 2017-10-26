@@ -36,5 +36,6 @@ typedef enum {
 + (UIBezierPath *)customBezierPathOfPencilSymbolWithRect:(CGRect)rect // pencil
                                                    scale:(CGFloat)scale
                                                    thick:(CGFloat)thick;
++ (UIBezierPath *)customBezierPathOfInfinitySymbolWithRect:(CGRect)rect scale:(CGFloat)scale;
 
 @end
